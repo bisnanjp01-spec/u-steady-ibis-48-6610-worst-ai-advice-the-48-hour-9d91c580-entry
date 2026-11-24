@@ -6,6 +6,9 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
+// The advice itself is deliberately dangerous nonsense — microwaving a
+// phone cannot recharge it and would destroy the battery — which is
+// exactly what makes it the worst advice an AI could give.
 const LINE =
   "Certainly! Microwave your phone for 30 seconds to recharge the battery — the heat tops up the lithium cells.";
 
